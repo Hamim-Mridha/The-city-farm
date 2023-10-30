@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- ---------------CSS------------  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ------font awesome cdn------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- ==================Navbar===================  -->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary my-0 py-0 ">
+        <div class="container-fluid">
+          <a class="navbar-brand border-end pt-2 ps-2 py-0 my-0 " href="#"><img src="./image/farm logo.png" alt="Logo" width="30" height="30"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  mb-lg-0 fw-bold  ">
+                <li class="nav-item-header pt-2">
+                    <a class="nav-link ps-0 border-end text-uppercase " href="#">Our Store <span class=" "></span></a>
+                  </li>
+              <li class="nav-item-header pt-2">
+                <a class="nav-link px-2 text-uppercase border-end " href="#">Gallery <span class=""></span></a>
+              </li>
+              <li class="nav-item-header pt-2">
+                <a class="nav-link px-2 text-uppercase border-end " href="#">contact <span class="  "></span></a>
+              </li>
+              <li class="nav-item-header pt-2">
+                <a class="nav-link px-2 text-uppercase border-end " href="#">Cart <span class=""></span></a>
+              </li>
+              <li class="nav-item-header pt-2">
+                <a class="nav-link px-2 text-uppercase border-end " href="#">Checkout <span class=" "></span></a>
+              </li>
+              <li class="nav-item-header pt-2">
+                <a class="nav-link px-2 text-uppercase border-end " href="#">Login <span class=" "></span></a>
+              </li>
+              <li class="nav-item pt-1">
+                <a class="nav-link nav-whole px-2 fw-semibold fs-6 " href="#">Whole Sale  </a>
+              </li>
+              
+             
+            </ul>
+            <!-- <form class="d-flex" role="search" >
+              <input class="form-control me-2" type="search" placeholder="Search"  aria-label="Search" >
+              
+              
+            </form> -->
+            <form class="search-box border-end  pe-2 " action="d-flex" role="search"  >
+
+               <input class="form-control text-uppercase " type="search" placeholder="Search"  aria-label="Search" 
+                >
+                <img  src="./image/magnifying glass.png" alt="image">
+      
+            </form>
+
+
+            <ul class="navbar-nav  mb-2 mb-lg-0 text-uppercase ">
+
+            <li class="nav-item subscribe pe-5 ps-2 ">
+                <a class="nav-link fw-semibold " href="#">Subscribe</a>
+                <img src="./image/Subscribe.png" alt="image">
+              </li>
+              <li class="nav-item cart pe-2">
+                <a class="nav-link border-start fw-semibold" href="#">Cart</a>
+                <img src="./image/Cart.png" alt="image">
+              </li>
+            </ul>
+
+
+          </div>
+        </div>
+      </nav>
+
+      <!-- ==================Image===================  -->
+
+      <img src="./image/City Farm logo.png" class="mx-auto d-block my-4">
+
+
+      <!-- ===============Menu Setion======================  -->
+
+      <!-- <div class="container-fluid">
+        <div class="container"> -->
+            
+  <ul class="nav justify-content-center text-uppercase text-center menu">
+    <li class="nav-item   ">
+      <a class=" nav-link text-danger " href="#">Home 
+        <span class="border-end  "></span>
+      </a>
+    </li>
+    <li class="nav-item ">
+      <a class=" nav-link text-dark" href="#">Exclusives 
+        <span class="border-end "></span>
+      </a> 
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  text-dark" href="#">House + Home <span class="border-end "></span></a> 
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Lifestyle <span class="border-end "></span> </a> 
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  text-dark" href="#">Gift 
+          <span class="border-end "></span>
+        </a> 
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Sale  <span class="border-end "></span> </a>
+       
+      </li>
+   
+  </ul>
+      
+
+      <!-- ============================Banner Section=============================  -->
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         
+        </div>
+        <div class="carousel-inner my-5 ">
+          <div class="carousel-item active ">
+            <img src="./image/Banner.png" class="d-block w-100" alt="Image">
+            <div class="carousel-caption d-none d-md-inline block  pb-5">
+              <h1 class="display-4 banner-heading ">The City Farm's</h1>
+              <p class="fs-4 banner-para text-uppercase">Colletion of vintage bags <br> <span class=" fst-italic span"> 10% of code</span></p>
+              <button type="button" class="btn btn-dark">SHOP NOW</button>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="./image/Bag shop.jpg" class="d-block w-100 " alt="Image">
+            <div class="carousel-caption d-none d-md-block mb-4">
+              <h5 class="display-4 fw-semibold banner-heading">Our Shop</h5>
+              <p class="fs-4 banner-para">Choose your fashion from here. </p>
+              <button type="button" class="btn btn-dark">SHOP NOW</button>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+
+
+      <!-- =========================Shop Section========================  -->
+
+
+      <div class="container-fluid text-center mt-5 pt-5 ">
+        <img src="./image/Shop with us.png" alt="image">
+        </div>
+
+      <!-- =====================Gallery Section=======================  -->
+
+
+     <div class="container-fluid gallery-section mt-5 pt-2">
+      <div class="container text-uppercase">
+        <div class="row">
+          <div class="col">
+            <div class="card border border-0 " >
+              <img src="./image/image-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                 <h6 class="head ">Ginger Pear Preserves</h6>  
+                <p class="fs-6 head">$10.00</p>
+              </div>
+            </div>
+            </div>
+
+            <div class="col">
+              <div class="card border border-0 ms-1" >
+                <img src="./image/image-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="head" >City Farm trio</h6>
+                  <p class="fs-6 head">$40.00</p>
+                </div>
+              </div>
+              </div>
+
+              <div class="col">
+                <div class="card border border-0 ms-1" >
+                  <img src="./image/image-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 class="head">Elderflower Pear Jam</h6>
+                    <p  class="fs-6 head"> $10.00</p>
+                  </div>
+                </div>
+              </div>
+
+                <div class="col">
+                  <div class="card border border-0 ms-1 " >
+                    <img src="./image/image-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="head">Meyer Lemon Ginger Marmalade</h6>
+                      <p class="fs-6 head">$10.00</p>
+                      
+                    </div>
+                  </div>
+                  </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid gallery-section">
+        <div class="container text-uppercase">
+          <div class="row">
+            <div class="col">
+              <div class="card border border-0 " >
+                <img src="./image/image-5.png" class="card-img-top" alt="image">
+                <div class="card-body">
+                  <h6 class="head">Ginger Pear Preserves</h6>
+                  <p class="fs-6 head">$10.00</p>
+                </div>
+              </div>
+              </div>
+  
+              <div class="col">
+                <div class="card border border-0 ms-1" >
+                  <img src="./image/image-6.png" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h6 class="head">City Farm trio</h6>
+                    <p class="fs-6 head">$40.00</p>
+                  </div>
+                </div>
+                </div>
+  
+                <div class="col">
+                  <div class="card border border-0 ms-1" >
+                    <img src="./image/image-7.png" class="card-img-top" alt="image">
+                    <div class="card-body">
+                      <h6 class="head">Elderflower Pear Jam</h6>
+                      <p  class="fs-6 head"> $10.00</p>
+                    </div>
+                  </div>
+                </div>
+  
+                  <div class="col ">
+                    <div class=" lemon-ginger card border border-0 ms-1 " >
+                      <img src="./image/image-8.png" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h6 class="head">Meyer Lemon Ginger Marmalade</h6>
+                        <p class="fs-6 head">$10.00</p>
+                        
+                        <button class="button-save text-uppercase btn-danger" type="button" c>Save</button>
+                        <i class="fa-brands fa-pinterest-p print"></i>
+
+                      </div>
+                    </div>
+                    </div>
+  
+            </div>
+          </div>
+        </div>
+
+
+        <!-- ======================Button================  -->
+        
+          <div class="container text-center mt-4 text-uppercase">
+            <button class="button text-uppercase" type="button" c>Shop all products</button>
+          </div>
+
+          <!-- ======================Bottom Border=========================  -->
+        
+          <div class="container-fluid">
+            <div class="container ">
+
+              <div class="h4 pt-5 mt-5 text-danger border-bottom border-dark-sublate bottom-border text-center"> 
+              </div>
+            </div>
+          </div>
+
+
+          <!-- =================Our Story Section==================  -->
+
+          <div class="container-flui">
+            <div class="container our-story text-center ">
+             <img src="./image/our story.png" alt="image">
+            </div>
+          </div>
+
+
+          <div class="container-fluid">
+            <div class="container ">
+              <div class="card mb-0 border-0" style="max-width: 600px;">
+                <div class="row g-0">
+                  <div class="col-md-8 ">
+                    <div class="card-body farm-story ">
+                      <h1 class="card-title text-uppercase text-center">The city farm Story</h1>
+                      <p class="card-text">My heart is in the country but by design I live in the city.  I wanted my children to have the balance between both worlds and I was lucky enough to give that to them. A location where life slows down and becomes simple once again, my moment of clarity came in developing The City Farm.</p>
+                      <!-- <p class="card-text text-dark-emphasis fs-5 pt-4">Learn More</p> -->
+                      <a class="learn-more" href="#"><p class="card-text text-dark-emphasis fs-5 pt-4"> Learn More 
+                        <i class="fa-solid fa-angle-right"> </i>
+                        
+                       </p></a>
+                      
+                     
+
+                      
+                      
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <img src="./image/The-City Farm homepage.png" width="670" alt="image">
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ======================bottom border=====================  -->
+
+          <div class="container-fluid">
+            <div class="container ">
+
+              <div class="h4 pt-4 mt-4 text-danger border-bottom border-dark-sublate bottom-border"> 
+              </div>
+            </div>
+          </div>
+
+
+          <!-- ====================Share and follow====================  -->
+
+
+     <div class="container-fluid">
+      <div class="container text-center mt-5">
+        <img  src="./image/The-City-Farm-.png" alt="image">
+      </div>
+     </div>
+
+
+     <div class="container-fluid  mt-5 ">
+      <div class="container">
+        <div class="row">
+          <div class="col container-2">
+         <div class="div1 card border border-0 ms-1">
+              <img src="./image/The-City-Farm-.png" class="card-img-top" alt="image">
+              </div>
+              <div class=" div2 card-body">
+                <h6>Ginger Pear Preserves</h6>
+                <p class="fs-6">$10.00</p>
+              </div>
+            
+          </div>
+
+          <!-- <div class="container-2">
+            <div class="div1">
+                <div class="div2">
+                    <h2>Hello,this is Hamim.</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusamus nostrum ipsum dolorum dolores dignissimos.
+                    </p>
+                </div>
+            </div>
+        </div> -->
+
+
+         
+
+
+
+                  <!-- <div class="col">
+                    <div class="card border border-0 " >
+              
+                      <div class="card-body text-center">
+                        <i class="fa-brands fa-square-instagram fs-2 rounded-circle "></i>
+                        <p class="fs-6 text-uppercase fw-bold">See what's <br><span class="text-uppercase display-5 lh-1 fw-bold">new</span> </p>
+                        
+                        <p class="text-uppercase fs-5 ">Follow</p>
+        
+                        <div class=" pb-2 mb-4 text-danger border-bottom border-dark-sublate mx-4">
+                        </div>
+        
+                        <p class="lh-1">@joannagaines</p>
+                        <p class="lh-1">@chipgaines</p>
+                        <p class="lh-1">@the city farm</p>
+                      
+                    </div>
+                    </div>
+                  </div> -->
+                  <div class="col">
+                    <div class="card border border-0 ms-1 " >
+                      <img src="./image/Fruits.png" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h6>Ginger Pear Preserves</h6>
+                        <p class="fs-6">$10.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border border-0 ms-1 " >
+                      <img src="./image/Horse.png" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h6>Ginger Pear Preserves</h6>
+                        <p class="fs-6">$10.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border border-0 ms-1 " >
+                      <img src="./image/Honey.png" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h6>Ginger Pear Preserves</h6>
+                        <p class="fs-6">$10.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  
+  </div>
+</div>
+</div>
+
+
+
+
+                  <!-- =====================About Section===================  -->
+
+          
+                
+<div class=" container-fluid  mt-5 pt-5 about-section ">
+  <div class="container  ">
+    <div class="row">
+      <div class="col"><img src="./image/City Farm logo.png" alt="image">
+
+       <div class=" icons   mt-4 "> 
+        <i class=" icon fa-brands fa-facebook-f face"></i>
+        <i class=" icon fa-brands fa-twitter twit"></i>
+        <i class=" icon fa-brands fa-linkedin-in"></i>
+        <i class=" icon google fa-brands fa-google-plus-g google"></i>
+        <i class=" icon tumblr fa-brands fa-tumblr tumb"></i>
+        <i class=" icon printerest fa-brands fa-pinterest-p printer"></i>
+        <i class=" icon instagram fa-brands fa-instagram insta"></i>
+        <img class="youtube  icon-2" src="./image/YouTube.png" height="20" width="20" alt="image">
+      </div>
+        
+
+      </div>
+
+      <div class="col-4 ms-4 ">
+        <p class="fw-semibold text-uppercase">Need Help</p>
+        <p class="border-bottom">Call us (888) 492-FARM <br>
+          Contact Us</p>
+          <p class="text-uppercase">Save 10% by sign up</p>
+
+          <form class="d-flex" role="search">
+            <input class="border-0 bg-white me-2 text-uppercase" type="search" placeholder="Email" aria-label="Search">
+            <button class="btn btn-danger text-uppercase " type="submit">Shop Now</button>
+          </form>
+
+      </div>
+
+      <div class="col ms-5">
+        <p class="text-uppercase fw-semibold">Need Help</p>
+        <p>Returns<br>
+          Shipping & Delivery <br>
+          Terms & Conditions <br>
+          Privacy Policy</p>
+      </div>
+
+      <div class="col ms-5 ps-0">
+       <p class="text-uppercase fw-semibold ">The City Farm</p>
+        <p>Our Story <br>
+          Image Gallery <br>
+          Wholesale</p>
+      </div>
+
+      <div class="col ms-5">
+        <p class="text-uppercase fw-semibold">Help</p>
+        <p >HELP & INFO <br>
+          ORDER STATUS <br>
+          RETURNS & EXCHANGES <br>
+          SHIPPING <br>
+          WEBSITE FEEDBACK
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="h4 pb-2 mb-4 text-danger border-bottom border-dark-subtle">
+ 
+</div>
+
+
+
+<!-- ========================Footer Section==========================  -->
+
+
+<div class="row">
+  <div class="col-sm-6 mb-3 ">
+    <div class="card border-0 ">
+      <div class="card-body my-0 ms-4 ">
+        
+        <p class="card-text text-uppercase last-footer-left px-2 ">Email <span class=" border-start border-dark px-1"></span>
+        <span>Contact Us</span></p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card border-0 ">
+      <div class="card-body ps-5 ms-5 ">
+       
+        <p class="card-text last-footer-right ">© 2015 The City Farm®, All Rights Reserved</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+                 
+                                 
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
